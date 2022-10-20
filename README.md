@@ -1,5 +1,9 @@
 ### Hi there 👋
 
+- 🔭 I’m currently working on `Tesla Ai-Day 2022`
+
+
+
 <!--
 **JinlongLi2016/JinlongLi2016** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
