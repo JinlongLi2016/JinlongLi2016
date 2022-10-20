@@ -1,6 +1,6 @@
 ### Hi there 👋
 
-- 🔭 I’m currently working on `Tesla Ai-Day 2022`
+- 🔭 I’m currently working on `Tesla Ai-Day 2022` & `CarND-PathPlanning`
 
 
 
