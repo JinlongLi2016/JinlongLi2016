@@ -32,6 +32,7 @@
 ### Engineering
 
 - [Project | AV - Data Driven Planning](https://www.notion.so/captaincaptain/e0f1d58cf80a4ebbbd23ba627d5f818c?pvs=4)
+- Cpp with Python via Pybind, using Bokeh to plot interactively.
 
 ### Base
 
