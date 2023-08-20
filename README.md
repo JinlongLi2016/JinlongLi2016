@@ -33,6 +33,8 @@
 - Cpp with Python via Pybind, using Bokeh to plot interactively.
 - **PNC-kits** : A simple tool to interact with multi-platform:simulation / cla / el
 - 规控大规模评测体系
+  - 体系架构
+  - auto-checker
 
 ### Base
 
