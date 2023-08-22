@@ -1,61 +1,39 @@
 ### Hi there 👋
 
-- 🔭 I’m currently working on `Tesla Ai-Day 2022` & `CarND-PathPlanning`
+
+- 🔭 自动驾驶 行业
+- 💬 可以聊聊 技术: 经典/最新的感知、规控技术; 编程; 数学.
+- 🌱 目前在学习[这些内容](./learning_material.md)
+- 📫 联系我: ljlsmail520 dot gmail dot com
 
 
-1. https://www.bilibili.com/video/BV1HT411m7f4/.  https://www.youtube.com/watch?v=Nu3LUB8wolc&ab_channel=Dr.Know-it-allKnowsitall
-1. https://www.youtube.com/watch?v=jPCV4GKX9Dw and its summary: https://www.thinkautonomous.ai/blog/occupancy-networks/. https://www.bilibili.com/video/BV1bB4y1j7Hs/
-1. https://www.bilibili.com/video/BV1bB4y1j7Hs/
-1. https://www.bilibili.com/video/BV1A34y1W7Lu/
-1. [tesla ai-day planning](https://www.zhihu.com/zvideo/1425607710649352192)
+### 自动驾驶项目
 
+下面是我从事过的一些自动驾驶相关项目,描述了一些技术实现.
 
-### Online Courses
-
-- [课程｜多伦多大学-无人驾驶课程](https://captaincaptain.notion.site/ecacdf9a2c4246cdb82ada3f1a48f5a5)
-
-
-### Algorithm
-
-- [Algorithm｜MPDM]()
-- [Algorithm｜EUDM]()
-- [Algorithm｜MDP](https://www.notion.so/captaincaptain/MDP-205cfd0f3c3a47aa8f4892025be18280?pvs=4) && [Algorithm｜POMDP]()
-- [Algorithm｜EPSILON]()
-- [Algorithm｜Planning on a (Risk) Budget: Safe Non-Conservative Planning in Probabilistic Dynamic Environments]()
-- [Algorithm｜VectorNet](https://www.notion.so/captaincaptain/VectorNet-c3e44de346184e6e85b29f26c8ca9392?pvs=4)
-- [Algorithm｜MultiPath]() && [Algorithm｜MultiPath++](https://www.notion.so/captaincaptain/MultiPath-3a65a20faed34a27a75811cdcc72ffaa?pvs=4)
-- [Algorithm｜IDM Driver Model](https://www.notion.so/captaincaptain/IDM-aca9dbf1d2dd48bd9ab8b6b9b5af6701?pvs=4)
-
-
-### Engineering
-
-- [Project | AV - Data Driven Planning](https://www.notion.so/captaincaptain/e0f1d58cf80a4ebbbd23ba627d5f818c?pvs=4)
-- Cpp with Python via Pybind, using Bokeh to plot interactively.
-- **PNC-kits** : A simple tool to interact with multi-platform:simulation / cla / el
-- 规控大规模评测体系
+- [Project | 数据驱动规划](https://www.notion.so/captaincaptain/e0f1d58cf80a4ebbbd23ba627d5f818c?pvs=4)  
+  通过深度学习进行决策规划
+- [Project | LCC横向规划方案]()  
+  通过微分法进行横向规划. 重新设计了架构, 支持 1)实车问题的快速复现 2) 快速调参
+- [Project | 规控算法可复现可视化快速迭代工具]()
+  - Cpp with Python via Pybind, using Bokeh to plot interactively.
+- [Project | 规控评测体系]()  
+  规控算法迭代的大规模评测体系: 场景搭建 & 自动评测.
   - 体系架构
     - 场景
-    - checker
-  - auto-checker
+    - 评测器
+  - 自动化评测
+    - 特征体系
+    - 模型/超参搜索
+- [Project | **评测器工具集**](): A simple tool with UI to interact with multi-platform
 
-### Base
+### 展望
 
-* [算法｜图网络(GNN)](https://www.notion.so/captaincaptain/GNN-1e7c51101fb64aebbc890b59b307e8ac?pvs=4)
-* [算法 | 强化学习](https://www.notion.so/captaincaptain/1bc85dee768c4024af9cfce12cd605d1?pvs=4)
-* [算法 | 状态栅格 state lattice planner](https://www.notion.so/captaincaptain/1bc85dee768c4024af9cfce12cd605d1?pvs=4)
-* [算法 | PWJ: Piecewise Jerk Optimizer(path & speed)](https://www.notion.so/captaincaptain/PWJ-Piecewise-Jerk-Optimizer-path-speed-ded75d987c864f5f97e85c262cc05c12?pvs=4)
-* [算法｜规划｜常用算法](https://www.notion.so/captaincaptain/64fb1d75f0e74edda50d151d921a433a?pvs=4)
-  * [A*]()
-  * [RRT&RRT*]()
-  * [人工势场法(Artificial Potential Field]()
-  * [Optimal Trajectory In Frenet Frame](https://captaincaptain.notion.site/ecacdf9a2c4246cdb82ada3f1a48f5a5)
-* Spline 样条曲线
-  * [Cubic Spline](https://github.com/JinlongLi2016/DayStore/tree/master/202110/1022/spline)
-  * [Quintic Spline]()
-  * [Clothoid/Spiral（螺线）](https://github.com/JinlongLi2016/DayStore/blob/master/202205/0528/PlanningInANutshell.md#%E6%80%BB%E7%BB%93)
-  * [Bezier Curve]()
-  * [BSpline (Basis-Spline)](https://github.com/JinlongLi2016/DayStore/blob/master/202205/0528/PlanningInANutshell.md#b%E6%A0%B7%E6%9D%A1basis-spline)
-  * [G2-Quintic Spline](https://www.notion.so/captaincaptain/G2-Quintic-Spline-22ca407457f24d0bafffa3304b4b8561?pvs=4)
+这一部分描述了对不同厂商技术实现的调研 及 自己未来的一些思考
+
+* [xpeng](./xpeng/readme.md)
+* [telsa](./tesla/)
+
 
 <!--
 **JinlongLi2016/JinlongLi2016** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
