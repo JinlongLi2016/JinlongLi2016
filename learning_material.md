@@ -1,14 +1,18 @@
-   
+> note: 某些链接是非空开的
+
 ### PNC算法学习
 
 - [Algorithm｜MPDM]()
 - [Algorithm｜EUDM]()
-- [Algorithm｜MDP](https://www.notion.so/captaincaptain/MDP-205cfd0f3c3a47aa8f4892025be18280?pvs=4) && [Algorithm｜POMDP]()
+- [Algorithm｜Spatial-temporal Semantic Corridor(SSC)]()
 - [Algorithm｜EPSILON]()
+- [Algorithm｜MDP](https://www.notion.so/captaincaptain/MDP-205cfd0f3c3a47aa8f4892025be18280?pvs=4) && [Algorithm｜POMDP]()
 - [Algorithm｜Planning on a (Risk) Budget: Safe Non-Conservative Planning in Probabilistic Dynamic Environments]()
 - [Algorithm｜VectorNet](https://www.notion.so/captaincaptain/VectorNet-c3e44de346184e6e85b29f26c8ca9392?pvs=4)
 - [Algorithm｜MultiPath]() && [Algorithm｜MultiPath++](https://www.notion.so/captaincaptain/MultiPath-3a65a20faed34a27a75811cdcc72ffaa?pvs=4)
 - Algorithm｜[IDM Driver](https://www.notion.so/captaincaptain/IDM-aca9dbf1d2dd48bd9ab8b6b9b5af6701?pvs=4) & [MOBIL](https://www.notion.so/captaincaptain/MOBIL-15ddc85a1b46497a9f449a2abfea24fc?pvs=4) Model
+- [Algorithm｜MARC: Multipolicy and Risk-aware Contingency Planning for Autonomous Driving(todo)](https://arxiv.org/abs/2308.12021)
+- [Algorithm｜Spatio-temporal Motion Planning for Autonomous Vehicles with Trapezoidal Prism Corridors and Be ́zier Curves(todo)]()
 
 ### 基础算法学习
 
@@ -17,7 +21,7 @@
 * [Algorithm｜状态栅格 state lattice planner](https://www.notion.so/captaincaptain/1bc85dee768c4024af9cfce12cd605d1?pvs=4)
 * [Algorithm｜PWJ: Piecewise Jerk Optimizer(path & speed)](https://www.notion.so/captaincaptain/PWJ-Piecewise-Jerk-Optimizer-path-speed-ded75d987c864f5f97e85c262cc05c12?pvs=4)
 * [Algorithm｜规划｜常用算法](https://www.notion.so/captaincaptain/64fb1d75f0e74edda50d151d921a433a?pvs=4)
-  * [A*]()
+  * [A*]()e 
   * [RRT&RRT*]()
   * [人工势场法(Artificial Potential Field]()
   * [Optimal Trajectory In Frenet Frame](https://captaincaptain.notion.site/ecacdf9a2c4246cdb82ada3f1a48f5a5)
