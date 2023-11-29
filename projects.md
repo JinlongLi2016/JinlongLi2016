@@ -42,5 +42,5 @@
 
 这一部分描述了对不同厂商技术实现的调研 及 自己未来的一些思考
 
-* [xpeng](./xpeng/)
-* [telsa](./tesla/)
+* [xpeng](./resources/xpeng/)
+* [telsa](./resources/tesla/)

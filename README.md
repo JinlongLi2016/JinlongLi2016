@@ -1,16 +1,16 @@
 ### Hi there 👋
 
 - 🚀 马斯克🚀 的粉丝
-- 🔭 我目前在 自动驾驶 行业, [🏃 这里有我做过的项目](./projects.md) 
-- 💬 可以聊聊 [🏃 我的项目](./projects.md) 和 纯技术: 经典/最新的感知、规控技术; 编程; 数学.
-- 🌱 目前在学习[这些内容](./learning_material.md)
+- 🔭 自动驾驶行业, [🏃 这里有我做过的项目](./projects.md) 
+- 💬 可以聊聊: 自动驾驶[方案](./projects.md#展望) 经典/最新的感知、规控技术; 编程; 数学.
+- 🌱 目前在学习这些[论文/算法/课程](./learning_material.md)
 - 📫 联系我: ljlsmail520 dot gmail dot com
 
 ### 自动驾驶项目
 
 下面是我从事过的一些自动驾驶相关项目,描述了一些技术实现.
 
-- Project | **ACC横向规划方案**   
+- Project | **ACC/LCC横向规划方案**   
   
   通过变分法(variational method)进行横向规划. 重新设计了架构, 支持实车问题的快速复现.
 
@@ -20,7 +20,7 @@
 
 - Project | **数据驱动规划**  
 
-  通过深度学习进行决策规划
+  通过深度学习进行决策规划. 网络模型可以参考 Transformer, MultiPath/TNT, VectorNet. 为了玩转这些网络, 需要对整个pipeline上上的做改变, 把控数据流.
 
 - Project | **规控评测体系**  
   规控算法迭代的大规模评测体系: 场景搭建 & 自动评测.
