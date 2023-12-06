@@ -56,6 +56,6 @@
 - [课程｜多伦多大学-无人驾驶课程](https://captaincaptain.notion.site/ecacdf9a2c4246cdb82ada3f1a48f5a5)
 
 ### 编程
-* Python
-* C++
-* Matlab
+
+* C++/Python/Matlab
+* Tensorflow/PyTorch
