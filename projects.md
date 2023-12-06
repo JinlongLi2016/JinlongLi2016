@@ -13,7 +13,14 @@
 
 - Project | **数据驱动规划**  
 
-  通过深度学习进行决策规划
+  通过深度学习进行决策规划. 网络模型可以参考 Transformer, MultiPath/TNT, VectorNet. 为了玩转这些网络, 需要对整个pipeline上上的做改变, 把控数据流.
+
+- Porject | **强化学习 Planner**   
+    1. 基于Common Road构建的场景,使用[Actor-Critic算法训练Planner](https://docs.google.com/document/d/1TTZk28jI2OWGVR1Z_IVYsvZBPN9IFzbVqJp8jh6vThE/edit#heading=h.68j4bct6elkb).  
+
+        ![rl_demo.gif](./assets/rl_demo.gif)
+        
+        案例中case是在本地电脑上训练，证明了强化学习模型可以收敛. 实验设置可以在参考链接中查看.更好的结果 & 复杂的场景 需要对cost进行更精细的设计 & 更强大训练资源.
 
 - Project | **规控评测体系**  
   规控算法迭代的大规模评测体系: 场景搭建 & 自动评测.
@@ -30,13 +37,10 @@
   * 评测工具集使用了fastapi来搭建web框架.前端为一个简单的html网页,后端接收界面请求并调用组织不同平台的API完成对应的功能.
 
 - Project | **仿真环境**
-  - Wrold-Sim: [Common Road](https://commonroad.in.tum.de/)      
+  - Wrold-Sim: [Common Road](https://commonroad.in.tum.de/)
     1. 使用Common Road构建自驾所需要的场景,[评估规控模块在这个场景下的效果](https://docs.google.com/document/d/1TTZk28jI2OWGVR1Z_IVYsvZBPN9IFzbVqJp8jh6vThE/edit?usp=sharing).   
-    1. 基于Common Road构建的场景,使用[强化学习训练Planner](https://docs.google.com/document/d/1TTZk28jI2OWGVR1Z_IVYsvZBPN9IFzbVqJp8jh6vThE/edit#heading=h.68j4bct6elkb).   
 
-        ![rl_demo.gif](./assets/rl_demo.gif)
-        
-        案例中case是在本地电脑上训练，证明了强化学习模型可以收敛. 实验设置可以在参考链接中查看.更好的结果 & 复杂的场景 需要对cost进行更精细的设计 & 更强大训练资源.
+
 
 ### 展望
 
