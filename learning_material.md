@@ -12,7 +12,9 @@
 - [Algorithm｜VectorNet](https://www.notion.so/captaincaptain/VectorNet-c3e44de346184e6e85b29f26c8ca9392?pvs=4)
 - [Algorithm｜MultiPath]() && [Algorithm｜MultiPath++](https://www.notion.so/captaincaptain/MultiPath-3a65a20faed34a27a75811cdcc72ffaa?pvs=4)
 - Algorithm｜[IDM Driver](https://www.notion.so/captaincaptain/IDM-aca9dbf1d2dd48bd9ab8b6b9b5af6701?pvs=4) & [MOBIL](https://www.notion.so/captaincaptain/MOBIL-15ddc85a1b46497a9f449a2abfea24fc?pvs=4) Model
-- [Algorithm｜MARC: Multipolicy and Risk-aware Contingency Planning for Autonomous Driving(todo)](https://arxiv.org/abs/2308.12021)
+- [Algorithm｜MARC: Multipolicy and Risk-aware Contingency Planning for Autonomous Driving, 2308](https://arxiv.org/abs/2308.12021)  
+  - [Contingency Plan] Contingency Model Predictive Control for Automated Vehicles, 1907  
+  - [Contingency Plan] Contingency Model Predictive Control for Linear Time-Varying Systems, 2102  
 - [Algorithm｜Spatio-temporal Motion Planning for Autonomous Vehicles with Trapezoidal Prism Corridors and Be ́zier Curves(todo)]()
 
 ### 基础算法学习
