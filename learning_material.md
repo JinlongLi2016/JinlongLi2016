@@ -9,12 +9,14 @@
 - [Algorithm｜MDP](https://www.notion.so/captaincaptain/MDP-205cfd0f3c3a47aa8f4892025be18280?pvs=4) && [Algorithm｜POMDP]()
 - [Algorithm｜Planning on a (Risk) Budget: Safe Non-Conservative Planning in Probabilistic Dynamic Environments]()
 - Algorithm | Synthesis and Stabilization of Complex Behaviors through Online Trajectory Optimization(iLQR/DDP)
-- [Algorithm｜VectorNet](https://www.notion.so/captaincaptain/VectorNet-c3e44de346184e6e85b29f26c8ca9392?pvs=4)
+- [Algorithm｜VectorNet](https://www.notion.so/captaincaptain/VectorNet-c3e44de346184e6e85b29f26c8ca9392?pvs=4) [code](./codes/vectornet.py)
 - [Algorithm｜MultiPath]() && [Algorithm｜MultiPath++](https://www.notion.so/captaincaptain/MultiPath-3a65a20faed34a27a75811cdcc72ffaa?pvs=4)
 - Algorithm｜[IDM Driver](https://www.notion.so/captaincaptain/IDM-aca9dbf1d2dd48bd9ab8b6b9b5af6701?pvs=4) & [MOBIL](https://www.notion.so/captaincaptain/MOBIL-15ddc85a1b46497a9f449a2abfea24fc?pvs=4) Model
 - [Algorithm｜MARC: Multipolicy and Risk-aware Contingency Planning for Autonomous Driving, 2308](https://arxiv.org/abs/2308.12021)  
-  - [Contingency Plan] Contingency Model Predictive Control for Automated Vehicles, 1907  
-  - [Contingency Plan] Contingency Model Predictive Control for Linear Time-Varying Systems, 2102  
+- Algorithm | [Contingency Plan] Contingency Model Predictive Control for Automated Vehicles, 1907  
+- Algorithm | [Contingency Plan] Contingency Model Predictive Control for Linear Time-Varying Systems, 2102  
+- Algorithm | 使用branch MPC进行交互多模态运动规划 Interactive multi-modal motion planning with Branch Model Predictive Control, 2110
+- Algorithm | 抵达集/可达集(Reach Set & Reachable Set) Bridging the Gap Between Safety and Real-Time Performance in Receding-Horizon Trajectory Design for Mobile Robots, 1809
 - [Algorithm｜Spatio-temporal Motion Planning for Autonomous Vehicles with Trapezoidal Prism Corridors and Be ́zier Curves(todo)]()
 
 ### 基础算法学习
@@ -29,7 +31,11 @@
   * [人工势场法(Artificial Potential Field)]()
   * [Optimal Trajectory In Frenet Frame](https://captaincaptain.notion.site/ecacdf9a2c4246cdb82ada3f1a48f5a5)
 * Curve
-  * [Bezier Curve]()
+  * [Bezier Curve 贝塞尔曲线]()  
+    1. 端点插值
+    1. 凸包性：贝塞尔曲线
+    1. hodograph性质: 它的导数依旧是贝塞尔曲线
+    1. 固定时间间隔：每一段定义在[0, 1]间
   * [Clothoid/Spiral（螺线）](https://github.com/JinlongLi2016/DayStore/blob/master/202205/0528/PlanningInANutshell.md#%E6%80%BB%E7%BB%93)
   * Quintic Polynomial
 * Spline 样条曲线

@@ -13,7 +13,7 @@
 
 - Project | **数据驱动规划**  
 
-  通过深度学习进行决策规划. 网络模型可以参考 Transformer, MultiPath/TNT, VectorNet. 为了玩转这些网络, 需要对整个pipeline上上的做改变, 把控数据流.
+  通过深度学习进行决策规划. 网络模型可以参考 Transformer, MultiPath/TNT, VectorNet [code](./codes/vectornet.py). 为了玩转这些网络, 需要调整pipeline, 把控数据流.
 
 - Porject | **强化学习 Planner**   
     1. 基于Common Road构建的场景,使用[Actor-Critic算法训练Planner](https://docs.google.com/document/d/1TTZk28jI2OWGVR1Z_IVYsvZBPN9IFzbVqJp8jh6vThE/edit#heading=h.68j4bct6elkb).  
