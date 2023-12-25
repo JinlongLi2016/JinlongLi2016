@@ -62,7 +62,7 @@
     - 评测器
   - 自动化评测
     - 特征体系
-    - 模型/超参搜索
+    - 模型/超参搜索(AutoML)
     - [模型自我迭代](https://docs.google.com/drawings/d/1qygI_3szCH37xL6nOGwrCXcsHnyxEcGzLJwTETHm4fo/edit?usp=sharing)
 
 - [Project | **评测器工具集**](): A simple tool with UI to interact with multi-platform    
