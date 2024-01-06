@@ -9,7 +9,6 @@
 - [Algorithm｜MDP](https://www.notion.so/captaincaptain/MDP-205cfd0f3c3a47aa8f4892025be18280?pvs=4) && [Algorithm｜POMDP]()
 - [Algorithm｜Planning on a (Risk) Budget: Safe Non-Conservative Planning in Probabilistic Dynamic Environments]()
 - Algorithm | Synthesis and Stabilization of Complex Behaviors through Online Trajectory Optimization(iLQR/DDP)
-- [Algorithm｜VectorNet](https://www.notion.so/captaincaptain/VectorNet-c3e44de346184e6e85b29f26c8ca9392?pvs=4) [code](./codes/vectornet.py)
 - [Algorithm｜MultiPath]() && [Algorithm｜MultiPath++](https://www.notion.so/captaincaptain/MultiPath-3a65a20faed34a27a75811cdcc72ffaa?pvs=4)
 - Algorithm｜[IDM Driver](https://www.notion.so/captaincaptain/IDM-aca9dbf1d2dd48bd9ab8b6b9b5af6701?pvs=4) & [MOBIL](https://www.notion.so/captaincaptain/MOBIL-15ddc85a1b46497a9f449a2abfea24fc?pvs=4) Model
 - [Algorithm｜MARC: Multipolicy and Risk-aware Contingency Planning for Autonomous Driving, 2308](https://arxiv.org/abs/2308.12021)  
@@ -18,7 +17,7 @@
 - Algorithm | 使用branch MPC进行交互多模态运动规划 Interactive multi-modal motion planning with Branch Model Predictive Control, 2110
 - Algorithm | 抵达集/可达集(Reach Set & Reachable Set) Bridging the Gap Between Safety and Real-Time Performance in Receding-Horizon Trajectory Design for Mobile Robots, 1809
 - [Algorithm｜Spatio-temporal Motion Planning for Autonomous Vehicles with Trapezoidal Prism Corridors and Be ́zier Curves(todo)]()
-
+- [Algorithm｜VectorNet](https://www.notion.so/captaincaptain/VectorNet-c3e44de346184e6e85b29f26c8ca9392?pvs=4) [code](./codes/vectornet.py) && [DayStore: Data-Driven Planning](https://gitlab.com/JinlongLi2016/daystore/-/tree/master/202205/0528/DDP)
 ### 基础算法学习
 
 * [Algorithm｜图网络(GNN)](https://www.notion.so/captaincaptain/GNN-1e7c51101fb64aebbc890b59b307e8ac?pvs=4)
@@ -57,11 +56,12 @@
 
     MPC每一轮滚动优化可以使用LQR
     
-  * [iLQR(iLQG)/DDP](https://deepnote.com/workspace/cap-219c-adf529b6-5576-4633-8243-086b31bd81c6/project/103-Iterative-Linear-Quadratic-Regulator-CourseNodes-ddfe3b21-6b96-4d14-b5d2-f122e0af1143/notebook/ilqr_driving-73702070a18b4db3ad7b82ae3c5e1281)
+  * [iLQR(DeepNote - iLQG)/DDP](https://deepnote.com/workspace/cap-219c-adf529b6-5576-4633-8243-086b31bd81c6/project/103-Iterative-Linear-Quadratic-Regulator-CourseNodes-ddfe3b21-6b96-4d14-b5d2-f122e0af1143/notebook/ilqr_driving-73702070a18b4db3ad7b82ae3c5e1281) [Gitee-ddp](https://gitee.com/jlliwhale/ddp)
 
 ### 在线学习课程
 
 - [课程｜多伦多大学-无人驾驶课程](https://captaincaptain.notion.site/ecacdf9a2c4246cdb82ada3f1a48f5a5)
+- [课程｜深蓝学院-运动规划课程](https://gitlab.com/JinlongLi2016/captain-motionplan/-/tree/master)
 
 ### 编程
 
