@@ -15,16 +15,16 @@ from easydict import EasyDict
 cfg = EasyDict(
     dict(
         vocsize=10,  # num_embedding
-        A=100,
+        A=200,
         M=80,
         N=16,
         D1=10,
-        D2=5,
+        D2=10,
         ego_index=0,
         max_num_lanes=
-        10,  # the first `max_num_lanes` feature in `static_fea` is lane
-        max_num_agents=30,
-        tp=30,
+        5,  # the first `max_num_lanes` feature in `static_fea` is lane
+        max_num_agents=20,
+        tp=20,
         tf=20,  # num time steps of future
     ))
 
