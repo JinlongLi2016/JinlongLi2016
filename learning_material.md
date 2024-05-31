@@ -17,7 +17,18 @@
 - Algorithm | 使用branch MPC进行交互多模态运动规划 Interactive multi-modal motion planning with Branch Model Predictive Control, 2110
 - Algorithm | 抵达集/可达集(Reach Set & Reachable Set) Bridging the Gap Between Safety and Real-Time Performance in Receding-Horizon Trajectory Design for Mobile Robots, 1809
 - [Algorithm｜Spatio-temporal Motion Planning for Autonomous Vehicles with Trapezoidal Prism Corridors and Be ́zier Curves(todo)]()
-- [Algorithm｜VectorNet](https://www.notion.so/captaincaptain/VectorNet-c3e44de346184e6e85b29f26c8ca9392?pvs=4) [code](./codes/vectornet.py) && [DayStore: Data-Driven Planning](https://gitlab.com/JinlongLi2016/daystore/-/tree/master/202205/0528/DDP)
+- Data-Driven/End2End
+  - [Notion](https://www.notion.so/captaincaptain/PNC-Task-672f7614bb274fff9dc0aeadba50ad64?pvs=4): 数据驱动PNC && [DayStore](https://gitlab.com/JinlongLi2016/daystore/-/tree/master/202205/0528/DDP): Data-Driven Planning
+  - [Algorithm｜dd | VectorNet](https://www.notion.so/captaincaptain/VectorNet-c3e44de346184e6e85b29f26c8ca9392?pvs=4) [code](./codes/vectornet.py)
+  - Algorithm｜e2e | Can Autonomous Vehicles Identify, Recover From, and Adapt to Distribution Shifts?, 2000
+  - Algorithm｜Causal Confusion in Imitation Learning, 1900
+  - Algorithm｜e2e | DTPP: Differentiable Joint Conditional Prediction and Cost Evaluation for Tree Policy Planning in Autonomous Driving, 2300
+  - Algorithm｜e2e | VADv2: End-to-End Vectorized Autonomous Driving via Probabilistic Planning
+  - Algorithm｜e2e | DriveVLM: The Convergence of Autonomous Driving and Large Vision-Language Models
+  - Algorithm｜e2e | PiP: Planning-informed Trajectory Prediction for Autonomous Driving, 2000
+  - Algorithm｜e2e | Scene Transformer: A unified architecture for predicting multiple agent trajectories,2103
+
+
 ### 基础算法学习
 
 * [Algorithm｜图网络(GNN)](https://www.notion.so/captaincaptain/GNN-1e7c51101fb64aebbc890b59b307e8ac?pvs=4)
@@ -42,7 +53,7 @@
   * [Quintic Spline]()
   * [BSpline (Basis-Spline)](https://github.com/JinlongLi2016/DayStore/blob/master/202205/0528/PlanningInANutshell.md#b%E6%A0%B7%E6%9D%A1basis-spline)
   * [G2-Quintic Spline](https://www.notion.so/captaincaptain/G2-Quintic-Spline-22ca407457f24d0bafffa3304b4b8561?pvs=4), [code](https://github.com/JinlongLi2016/DayStore/tree/master/topics/g2-quintic-spline)
- 
+
 * Control 
   * [LQR](https://www.youtube.com/watch?v=E_RDCFOlJx4) | 线性二次调节器: 状态转移关系是线性的，目标函数是二次的调节器.   
     1. 设计线性的转移方程
