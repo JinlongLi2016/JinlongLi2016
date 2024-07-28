@@ -2,6 +2,32 @@
 
 ### PNC算法学习
 
+- Data-Driven/End2End
+  - [Notion](https://www.notion.so/captaincaptain/PNC-Task-672f7614bb274fff9dc0aeadba50ad64?pvs=4): 数据驱动PNC && [DayStore](https://gitlab.com/JinlongLi2016/daystore/-/tree/master/202205/0528/DDP): Data-Driven Planning
+  - [Algorithm｜dd | VectorNet](https://www.notion.so/captaincaptain/VectorNet-c3e44de346184e6e85b29f26c8ca9392?pvs=4) [code](./codes/vectornet.py)
+  - Algorithm｜e2e | Can Autonomous Vehicles Identify, Recover From, and Adapt to Distribution Shifts?, 2000
+  - Algorithm｜e2e | Causal Confusion in Imitation Learning, 1900
+  - Algorithm｜e2e | DTPP: Differentiable Joint Conditional Prediction and Cost Evaluation for Tree Policy Planning in Autonomous Driving, 2300
+  - Algorithm｜e2e | VADv2: End-to-End Vectorized Autonomous Driving via Probabilistic Planning
+  - Algorithm｜e2e | DriveVLM: The Convergence of Autonomous Driving and Large Vision-Language Models
+  - Algorithm｜e2e | PiP: Planning-informed Trajectory Prediction for Autonomous Driving, 2000
+  - Algorithm｜e2e | Scene Transformer: A unified architecture for predicting multiple agent trajectories,2103
+    * 模型输入为perception object
+    * 使用mask来支持同步做planning&prediction
+  - Algorithm｜e2e | LOKI: Long Term and Key Intentions for Trajectory Prediction
+  - Algorithm｜e2e | MP3: A unified model to map, perceive, predict and plan
+  - Algorithm｜e2e | TNT
+  - Algorithm｜e2e | DenseTNT
+  - Algorithm｜e2e | MultiPath
+  - Algorithm｜e2e | MultiPath++
+    
+    贡献有三点
+    
+    1. 精心设计下面几个方面提高效果：输入的表征及编码，融合编码及输出的分布。considering choices for input representation and encoding, fusing encodings, and representing the output distribution.
+    2. 证明了以下几个方面对于行为预测很重要：稀疏编码，高效融合方法，基于控制的方法以及可学习的锚 （sparse encoding, efficient fusion methods, control-based methods, and learned anchors）
+    3. we provided a practical guide for various tricks used for training and inference to improve **robustness, increase diversity, handle missing data, and ensure fast convergence** during training.
+
+  - Algorithm｜e2e | Hydra-MDP: End-to-end Multimodal Planning with Multi-target Hydra-Distillation
 - [Algorithm｜MPDM]()
 - [Algorithm｜EUDM]()
 - [Algorithm｜Spatial-temporal Semantic Corridor(SSC)]()
@@ -17,16 +43,6 @@
 - Algorithm | 使用branch MPC进行交互多模态运动规划 Interactive multi-modal motion planning with Branch Model Predictive Control, 2110
 - Algorithm | 抵达集/可达集(Reach Set & Reachable Set) Bridging the Gap Between Safety and Real-Time Performance in Receding-Horizon Trajectory Design for Mobile Robots, 1809
 - [Algorithm｜Spatio-temporal Motion Planning for Autonomous Vehicles with Trapezoidal Prism Corridors and Be ́zier Curves(todo)]()
-- Data-Driven/End2End
-  - [Notion](https://www.notion.so/captaincaptain/PNC-Task-672f7614bb274fff9dc0aeadba50ad64?pvs=4): 数据驱动PNC && [DayStore](https://gitlab.com/JinlongLi2016/daystore/-/tree/master/202205/0528/DDP): Data-Driven Planning
-  - [Algorithm｜dd | VectorNet](https://www.notion.so/captaincaptain/VectorNet-c3e44de346184e6e85b29f26c8ca9392?pvs=4) [code](./codes/vectornet.py)
-  - Algorithm｜e2e | Can Autonomous Vehicles Identify, Recover From, and Adapt to Distribution Shifts?, 2000
-  - Algorithm｜Causal Confusion in Imitation Learning, 1900
-  - Algorithm｜e2e | DTPP: Differentiable Joint Conditional Prediction and Cost Evaluation for Tree Policy Planning in Autonomous Driving, 2300
-  - Algorithm｜e2e | VADv2: End-to-End Vectorized Autonomous Driving via Probabilistic Planning
-  - Algorithm｜e2e | DriveVLM: The Convergence of Autonomous Driving and Large Vision-Language Models
-  - Algorithm｜e2e | PiP: Planning-informed Trajectory Prediction for Autonomous Driving, 2000
-  - Algorithm｜e2e | Scene Transformer: A unified architecture for predicting multiple agent trajectories,2103
 
 
 ### 基础算法学习
