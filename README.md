@@ -2,8 +2,13 @@
 
 - 🚀 马斯克🚀 的粉丝
 - 🔭 自动驾驶行业, [🏃 这里有我做过的项目](./projects.md) 
-- 💬 可以聊聊: 自动驾驶[方案](./projects.md#展望) 经典/最新的感知、规控技术; 编程; 数学.
 - 🌱 目前在学习这些[论文/算法/课程](./learning_material.md)
+- 💬 可以聊聊: 自动驾驶[方案](./projects.md#展望) 经典/最新的感知、规控技术; 编程; 数学.
+  <p align="center">
+   <a>自动驾驶技术发展历史</a></br>
+    <img src="./assets/av-tech-path.png" alt="av-tech-path.PNG" title="av-tech-path.PNG" />
+  </p>
+
 - 📫 联系我: email(ljlsmail520 dot gmail dot com)/wechat(hardlabcaptain)
 
 <!--
