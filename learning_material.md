@@ -27,8 +27,10 @@
     2. 证明了以下几个方面对于行为预测很重要：稀疏编码，高效融合方法，基于控制的方法以及可学习的锚 （sparse encoding, efficient fusion methods, control-based methods, and learned anchors）
     3. we provided a practical guide for various tricks used for training and inference to improve **robustness, increase diversity, handle missing data, and ensure fast convergence** during training.
   
-  - Algorithm｜e2e | **Hydra-MDP**: End-to-end Multimodal Planning with Multi-target Hydra-Distillation, 2406
-  
+- Algorithm｜e2e | **Hydra-MDP**: End-to-end Multimodal Planning with Multi-target Hydra-Distillation, 2406
+- Algorithm｜e2e | GenAD: Generative End-to-End Autonomous Driving
+- Algorithm｜e2e | MotionLLM
+- Algorithm｜e2e | GUMP
 - [Algorithm｜MPDM]()
 - [Algorithm｜EUDM]()
 - [Algorithm｜Spatial-temporal Semantic Corridor(SSC)]()
