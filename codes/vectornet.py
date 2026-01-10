@@ -236,35 +236,122 @@ class Decoder(nn.Module):
     pred_trajs = self.prediciton_head(
         agents_feature)  # [B, cfg.max_num_agents, cfg.tf * 2]
 
-    print(f"scores: shape {scores.shape}, {plan_trajs.shape}, {pred_trajs.shape}")
+    # print(f"scores: shape {scores.shape}, {plan_trajs.shape}, {pred_trajs.shape}")
     return logits, plan_trajs, pred_trajs
+
+class VectorNet(nn.Module):
+  
+  def __init__(self, config, feature_dim, type_embedding):
+    super().__init__()
+    self.cfg = config
+    self.feature_dim = feature_dim
+    self.type_embedding = type_embedding
+    self.encoding = VectorNetEncoder(cfg, fea_dim=96, embedding_dim=32)
+    self.decoding = Decoder(cfg, feature_dim=96)
+
+  def forward(self, dynamic_features, static_features):
+    polyline_features = self.encoding(dynamic_features, static_features)
+    logits, plan_trajs, pred_trajs = self.decoding(polyline_features)
+    return logits, plan_trajs, pred_trajs
+
+
+
+# Define Loss. Measure Deviation.
+def calculate_losses(
+    logits, 
+    plan_trajs, 
+    pred_trajs, 
+    cls_label, 
+    plan_traj_gt, 
+    pred_gt):
+  # binary - cross-entropy classfication loss
+  cls_loss = torch.nn.functional.binary_cross_entropy_with_logits(logits, cls_label.float())
+  # planning loss. Only penalize the one corresponding to the label. avg-l2 loss
+  # B*1*#trajs_size
+  selected_plan_trajs = plan_trajs.gather(1, cls_label.argmax(dim=-1).unsqueeze(1).unsqueeze(2).expand(-1, 1, plan_trajs.shape[2]))
+  pln_loss  = torch.nn.functional.mse_loss(selected_plan_trajs.squeeze(1), plan_traj_gt)
+
+  # prediction loss. penalize those dynamic obstacle's prediction diff
+  pred_loss = torch.nn.functional.mse_loss(pred_trajs, pred_gt)
+  return cls_loss + pln_loss + pred_loss
+
+import torch.optim as optim
+
+def testrunningmodel():
+  B, N, D = 64, 16, 9
+
+  print("static raw feature shape: ", B, cfg.M, N, cfg.D2)
+  static_feas = torch.rand(B, cfg.M, N, cfg.D2)
+  static_feas[..., -1] = 8
+
+  print("agent raw feature shape: ", B, cfg.A, N, cfg.D1)
+  X = torch.rand(B, cfg.A, N, cfg.D1)
+  X[..., -1] = 5
+
+  vector_net = VectorNet(cfg, feature_dim=96, type_embedding=32)
+
+  logits, plan_trajs, pred_trajs = vector_net(X, static_feas)
+
+  print(f"logits.shape:{logits.shape}, plan_trajs.shape: {plan_trajs.shape}, pred_trajs.shape: {pred_trajs.shape}")
+
+  fake_cls_label = torch.nn.functional.one_hot(torch.randint(0, 5,  (B,)))#.argmax(dim = -1)
+  fake_plan_traj_gt = torch.randn((B, cfg.tf * 2))
+  fake_pred_traj_gt = torch.randn((B, cfg.max_num_agents, cfg.tf * 2))
+
+  # Config Optimizer
+  optimizer = optim.SGD(vector_net.parameters(), lr=0.0001, momentum=0.9)
+
+  # Training Process
+  for epoch in range(500):  # loop over the dataset multiple times
+
+      # zero the parameter gradients
+      optimizer.zero_grad()
+
+      # forward + backward + optimize
+      logits, plan_trajs, pred_trajs = vector_net(X, static_feas)
+      loss = calculate_losses(logits, plan_trajs, pred_trajs, fake_cls_label, fake_plan_traj_gt, fake_pred_traj_gt)
+      loss.backward()
+      optimizer.step()
+
+      if epoch % 10 == 0:
+        print(f"epoch: {epoch}, loss: {loss.item()}")
+
+  print('Finished Training')
 
 
 if __name__ == "__main__":
   B, N, D = 64, 16, 9
 
+  testrunningmodel()
   # X = torch.rand(B, N, D)
   # X[..., -1] = 5
 
   # sg = SubGraph(D, N, 96, 10, 32)
   # ret = sg(X)
   # print(ret.shape)
-  ve = VectorNetEncoder(cfg, fea_dim=96, embedding_dim=32)
 
-  print("static raw feature shape: ", B, cfg.M, N, cfg.D2)
-  static_feas = torch.rand(B, cfg.M, N, cfg.D2)
-  static_feas[..., -1] = 8
-  print("agent raw feature shape: ", B, cfg.A, N, cfg.D1)
-  X = torch.rand(B, cfg.A, N, cfg.D1)
-  X[..., -1] = 5
-  polyline_features = ve(X, static_feas)
-  print(f"{polyline_features.shape}")
+  # ve = VectorNetEncoder(cfg, fea_dim=96, embedding_dim=32)
 
-  mask = [1, 3]
-  print(
-      f"{X.shape}, {X[:, mask, ...].shape, {X[1:1+1].shape}} {(X[[1]] + X).shape}"
-  )
-  print(f"{X.mean()}, {X[1:1+1].mean()}, {(X[1:1+1] + X).mean()}")
+  # print("static raw feature shape: ", B, cfg.M, N, cfg.D2)
+  # static_feas = torch.rand(B, cfg.M, N, cfg.D2)
+  # static_feas[..., -1] = 8
+  # print("agent raw feature shape: ", B, cfg.A, N, cfg.D1)
+  # X = torch.rand(B, cfg.A, N, cfg.D1)
+  # X[..., -1] = 5
+  # polyline_features = ve(X, static_feas)
+  # print(f"{polyline_features.shape}")
 
-  dec = Decoder(cfg, feature_dim=96)
-  dec(polyline_features)
+  # mask = [1, 3]
+  # print(
+  #     f"{X.shape}, {X[:, mask, ...].shape, {X[1:1+1].shape}} {(X[[1]] + X).shape}"
+  # )
+  # print(f"{X.mean()}, {X[1:1+1].mean()}, {(X[1:1+1] + X).mean()}")
+
+  # dec = Decoder(cfg, feature_dim=96)
+  # logits, plan_trajs, pred_trajs = dec(polyline_features)
+  # print(f"logits.shape:{logits.shape}, plan_trajs.shape: {plan_trajs.shape}, pred_trajs.shape: {pred_trajs.shape}")
+
+
+  # Next: 
+  # 1. mask-out those placeholder corresponding not static or dynamic object
+  # 2. define loss & config optimizer / optimization process & learning rate
