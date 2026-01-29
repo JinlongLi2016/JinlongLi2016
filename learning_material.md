@@ -93,6 +93,8 @@
 - [课程｜多伦多大学-无人驾驶课程](https://captaincaptain.notion.site/ecacdf9a2c4246cdb82ada3f1a48f5a5)
 - [课程｜深蓝学院-运动规划课程](https://gitlab.com/JinlongLi2016/captain-motionplan/-/tree/master)
 - [课程｜深蓝学院-决策预测课程]()
+- [课程｜CS336-LLM from scratch](https://www.notion.so/captaincaptain/283b1f9d11a080d89e1efaef828430e7?v=283b1f9d11a08165a642000c35b50fcc)
+- [课程｜CS25-Transformer United V5](https://www.notion.so/captaincaptain/259b1f9d11a0806a8acff8d7f1aa92e5?v=259b1f9d11a080818ef2000c149b3b4a)
 
 ### 编程
 
