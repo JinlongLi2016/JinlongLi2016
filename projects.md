@@ -3,7 +3,7 @@
 这一部分描述了对不同厂商技术实现的调研 及 自己未来的一些思考
 
 * [xpeng](./resources/xpeng/)
-* [telsa](./resources/tesla/)
+* [tesla](./resources/tesla/)
 
 ### 项目
 下面是我从事过的一些自动驾驶相关项目,描述了一些技术实现.
