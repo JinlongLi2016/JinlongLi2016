@@ -1,4 +1,9 @@
+### 行业内公司方案调研
 
+这一部分描述了对不同厂商技术实现的调研 及 自己未来的一些思考
+
+* [xpeng](./resources/xpeng/)
+* [telsa](./resources/tesla/)
 
 ### 项目
 下面是我从事过的一些自动驾驶相关项目,描述了一些技术实现.
@@ -46,10 +51,3 @@
     1. 使用Common Road构建自驾所需要的场景,[评估规控模块在这个场景下的效果](https://docs.google.com/document/d/1TTZk28jI2OWGVR1Z_IVYsvZBPN9IFzbVqJp8jh6vThE/edit?usp=sharing).   
 
 
-
-### 展望
-
-这一部分描述了对不同厂商技术实现的调研 及 自己未来的一些思考
-
-* [xpeng](./resources/xpeng/)
-* [telsa](./resources/tesla/)
