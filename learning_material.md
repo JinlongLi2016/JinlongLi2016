@@ -1,9 +1,22 @@
 > note: 某些链接是非空开的
 
+### 在线学习课程
+
+- [课程｜CS336-LLM from scratch](https://www.notion.so/captaincaptain/283b1f9d11a080d89e1efaef828430e7?v=283b1f9d11a08165a642000c35b50fcc)
+  - [L15: Alignment - SFT/RLHF]()
+  - [L16: Alignment - RL]()
+- [课程 | Introduction to Flow Matching and Diffusion Models 2026](https://diffusion.csail.mit.edu/2026/index.html)
+  - MIT Course 6.S184: Generative AI with Stochastic Differential Equations
+- [课程｜CS25-Transformer United V5](https://www.notion.so/captaincaptain/259b1f9d11a0806a8acff8d7f1aa92e5?v=259b1f9d11a080818ef2000c149b3b4a)
+- [课程｜多伦多大学-无人驾驶课程](https://captaincaptain.notion.site/ecacdf9a2c4246cdb82ada3f1a48f5a5)
+- [课程｜深蓝学院-运动规划课程](https://gitlab.com/JinlongLi2016/captain-motionplan/-/tree/master)
+- [课程｜深蓝学院-决策预测课程]()
+
 ### PNC算法学习
 
 - Data-Driven/End2End
   - [Notion](https://www.notion.so/captaincaptain/PNC-Task-672f7614bb274fff9dc0aeadba50ad64?pvs=4): 数据驱动PNC && [DayStore](https://gitlab.com/JinlongLi2016/daystore/-/tree/master/202205/0528/DDP): Data-Driven Planning
+  - Algorithm｜e2e | Scaling Laws of Motion Forecasting and Planning
   - [Algorithm｜dd | VectorNet](https://www.notion.so/captaincaptain/VectorNet-c3e44de346184e6e85b29f26c8ca9392?pvs=4) [code](./codes/vectornet.py)
   - Algorithm｜e2e | Can Autonomous Vehicles Identify, Recover From, and Adapt to Distribution Shifts?, 2000
   - Algorithm｜e2e | Causal Confusion in Imitation Learning, 1900
@@ -88,15 +101,19 @@
     
   * [iLQR(DeepNote - iLQG)/DDP](https://deepnote.com/workspace/cap-219c-adf529b6-5576-4633-8243-086b31bd81c6/project/103-Iterative-Linear-Quadratic-Regulator-CourseNodes-ddfe3b21-6b96-4d14-b5d2-f122e0af1143/notebook/ilqr_driving-73702070a18b4db3ad7b82ae3c5e1281) [Gitee-ddp](https://gitee.com/jlliwhale/ddp)
 
-### 在线学习课程
 
-- [课程｜多伦多大学-无人驾驶课程](https://captaincaptain.notion.site/ecacdf9a2c4246cdb82ada3f1a48f5a5)
-- [课程｜深蓝学院-运动规划课程](https://gitlab.com/JinlongLi2016/captain-motionplan/-/tree/master)
-- [课程｜深蓝学院-决策预测课程]()
-- [课程｜CS336-LLM from scratch](https://www.notion.so/captaincaptain/283b1f9d11a080d89e1efaef828430e7?v=283b1f9d11a08165a642000c35b50fcc)
-- [课程｜CS25-Transformer United V5](https://www.notion.so/captaincaptain/259b1f9d11a0806a8acff8d7f1aa92e5?v=259b1f9d11a080818ef2000c149b3b4a)
 
 ### 编程
 
 * C++/Python/Matlab
 * Tensorflow/PyTorch
+
+
+
+地平线是2亿小时的视频里面选择了6kw帧
+dpx - 
+2已 6kw小时
+
+*如何排除是数据质量的问题？ 专家数据FT一把。
+
+* 如何排除是数据质量的问题？用专家的数据FT一把，如果问题解决了，那么认为是数据质量的问题。可能是脏数据、缺数据、数据配比

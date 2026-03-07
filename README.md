@@ -3,12 +3,21 @@
 - 🚀 马斯克🚀 的粉丝
 - 🔭 自动驾驶行业, [🏃 这里有我做过的项目](./projects.md) 
 - 🌱 目前在学习这些[论文/算法/课程](./learning_material.md)
+  <details>
+    <summary>【MIT 6.S184流匹配和扩散模型】学习讨论群 </summary>
+    diffusion model作为当前最前沿的生成模型，在图像视频生成、运动控制等领域是一个绕不开的话题。我正在(2026年03月07日)学习一门流匹配和扩散模型的<a href="https://diffusion.csail.mit.edu/2026/index.html">课程</a>，创建了一个飞书群。欢迎你加入，一起来讨论。  
+    
+    ![FlowMatchiingGroup](./assets/mit6.S184FlowMatchingGroup.jpg)
+  </details>
+
+
 - 💬 可以聊聊: 自动驾驶[方案](./projects.md#展望) 经典/最新的感知、规控技术; 编程; 数学.
   - [FSD V14 分享](https://captaincaptain.notion.site/A-Peek-into-Tesla-s-Autonomous-Future-Core-Tech-Revealed-by-VP-Ashok-Elluswamy-at-ICCV25-WDFM-AD-2d7b1f9d11a08092aaa3c6c31589ad72?source=copy_link)
-  <p align="center">
-   <a>自动驾驶技术发展历史</a></br>
-    <img src="./assets/av-tech-path.png" alt="av-tech-path.PNG" title="av-tech-path.PNG" />
-  </p>
+  - 自动驾驶技术发展历史
+    <p align="center">
+    <a>自动驾驶技术发展历史</a></br>
+      <img src="./assets/av-tech-path.png" alt="av-tech-path.PNG" title="av-tech-path.PNG" />
+    </p>
 
 - 📫 联系我: email(ljlsmail520 dot gmail dot com)/wechat(hardlabcaptain)
 
