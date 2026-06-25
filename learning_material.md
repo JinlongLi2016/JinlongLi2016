@@ -6,6 +6,7 @@
   * [Agent Skills](https://platform.claude.com/docs/en/agents-and-tools/agent-skills/overview)
   * [Effective harnesses for long-running agents](https://www.anthropic.com/engineering/effective-harnesses-for-long-running-agents)
 
+* [autoresearch](https://github.com/karpathy/autoresearch), [blog](https://www.datacamp.com/tutorial/guide-to-autoresearch)
 ### 在线学习课程
 
 - [课程｜CS336-LLM from scratch](https://www.notion.so/captaincaptain/283b1f9d11a080d89e1efaef828430e7?v=283b1f9d11a08165a642000c35b50fcc)
