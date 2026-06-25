@@ -2,7 +2,7 @@
 
 ### Dev with AI
 
-* [AI工程进化论-从提示词到驾驭(AI总结)] (https://jinlongli2016.github.io/2022/AI%E5%B7%A5%E7%A8%8B%E8%BF%9B%E5%8C%96%E8%AE%BA_%E4%BB%8E%E6%8F%90%E7%A4%BA%E8%AF%8D%E5%88%B0%E9%A9%BE%E9%A9%AD_%E6%B7%B1%E5%BA%A6%E5%88%86%E6%9E%90%E6%8A%A5%E5%91%8A.html)
+* [AI工程进化论-从提示词到驾驭(AI总结)](https://jinlongli2016.github.io/2022/AI%E5%B7%A5%E7%A8%8B%E8%BF%9B%E5%8C%96%E8%AE%BA_%E4%BB%8E%E6%8F%90%E7%A4%BA%E8%AF%8D%E5%88%B0%E9%A9%BE%E9%A9%AD_%E6%B7%B1%E5%BA%A6%E5%88%86%E6%9E%90%E6%8A%A5%E5%91%8A.html)
   * [Agent Skills](https://platform.claude.com/docs/en/agents-and-tools/agent-skills/overview)
   * [Effective harnesses for long-running agents](https://www.anthropic.com/engineering/effective-harnesses-for-long-running-agents)
 
